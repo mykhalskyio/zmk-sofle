@@ -6,8 +6,8 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    - name: mykhalskyio
+      url-base: https://github.com/mykhalskyio
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
