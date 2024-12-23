@@ -8,13 +8,15 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: mykhalskyio
       url-base: https://github.com/mykhalskyio
+    - name: gpeye
+      url-base: https://github.com/GPeye
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
-    - name: nice-view-anime
-      remote: mykhalskyio
-      revision: main 
+    - name: hammerbeam-slideshow
+      remote: gpeye
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
