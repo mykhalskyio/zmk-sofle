@@ -10,12 +10,14 @@ manifest:
       url-base: https://github.com/mykhalskyio
     - name: gpeye
       url-base: https://github.com/GPeye
+    - name: ray24777
+      url-base: https://github.com/ray24777
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
-    - name: hammerbeam-slideshow
-      remote: gpeye
+    - name: elin-peripheral-animation
+      remote: ray24777
       revision: main
     - name: zmk
       remote: zmkfirmware
