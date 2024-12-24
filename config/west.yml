@@ -16,8 +16,8 @@ manifest:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
-    - name: elin-peripheral-animation
-      remote: ray24777
+    - name: nice-view-anime
+      remote: mykhalskyio
       revision: main
     - name: zmk
       remote: zmkfirmware
