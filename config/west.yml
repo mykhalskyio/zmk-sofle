@@ -10,14 +10,17 @@ manifest:
       url-base: https://github.com/mykhalskyio
     - name: gpeye
       url-base: https://github.com/GPeye
-    - name: ray24777
-      url-base: https://github.com/ray24777
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
-    - name: nice-view-anime
-      remote: mykhalskyio
+    # - name: nice-view-anime
+    #   remote: mykhalskyio
+    #   revision: main
+    - name: nice-view-gem
+      remote: m165437
       revision: main
     - name: zmk
       remote: zmkfirmware
