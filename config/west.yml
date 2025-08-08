@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
+    - name: infely                           
+      url-base: https://github.com/infely    
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -16,5 +18,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: nice-view-battery                  
+      remote: infely                           
+      revision: main                           
   self:
     path: boards
