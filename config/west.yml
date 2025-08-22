@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/infely
     - name: m165437
       url-base: https://github.com/M165437  
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -22,6 +24,9 @@ manifest:
       import: app/west.yml
     - name: nice-view-gem
       remote: m165437
-      revision: main                     
+      revision: main   
+    - name: zmk-config
+      remote: mctechnology17
+      revision: main                  
   self:
     path: boards
